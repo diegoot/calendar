@@ -1,0 +1,13 @@
+.reminderForm {
+  width: 80%;
+  margin: 0 auto;
+
+  &_row, &_title {
+    padding: 10px;
+  }
+
+  &_title {
+    font-size: 2em;
+    font-weight: 900;
+  }
+}

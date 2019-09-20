@@ -1,0 +1,59 @@
+@mixin listItem {
+  border-bottom: 1px solid black;
+  list-style-type: none;
+  display: inline-block;
+  width: calc(100%/7);
+  box-sizing: border-box;
+  vertical-align: bottom;
+}
+
+.calendar {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  
+  &_month {
+    padding: 20px;
+    font-weight: 900;
+    font-size: 2em;
+  }
+  
+  
+  &_prev, &_next {
+    cursor: pointer;
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &_prev {
+    float: left;
+  }
+
+  &_next {
+    float: right;
+  }
+
+  &_dayNames {
+    li {
+      @include listItem();
+      background-color: #eee;
+      border-top: 1px solid black;
+      height: 40px;
+      padding: 10px;
+    }
+  }
+
+  &_day {
+    @include listItem();
+    background-color: aqua;
+    height: 100px;
+    padding: 10px;
+  }
+
+  &_actions {
+    margin-top: 10px;
+    text-align: left;
+  }
+}

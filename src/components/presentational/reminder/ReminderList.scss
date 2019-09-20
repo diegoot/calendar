@@ -1,0 +1,12 @@
+.reminderList {
+  &_item {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+ 
+  &_more {
+    color: blue;
+    cursor: pointer;
+  }
+}
