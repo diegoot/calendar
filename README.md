@@ -9,6 +9,8 @@ Some of the libraries/tools used on it are:
 - [classnames](https://github.com/JedWatson/classnames)
 - [momentjs](https://momentjs.com/)
 
+#### IMPORTANT: This is the output of an interview test. This might need improvements and/or have incomplete features given the time I had to do it
+
 # Project setup
 
 - Clone this repository.
